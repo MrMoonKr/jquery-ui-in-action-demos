@@ -207,9 +207,10 @@ const getDirectoryEntries = async ( parentPath, chapters, template='./src/templa
             // html plugin 객체 구성
 
             const plugin = new HtmlWebpackPlugin( {
-                filename: path.join( chapter, name + '.html' ),
+                filename: path.join( chapter, name +'.[contenthash:4]' + '.html' ),
                 chunks: [name] ,
-                template: template
+                template: template ,
+                title: "[name]"
             } ) ;
             
             generatedPlugins.push( plugin ) ;
