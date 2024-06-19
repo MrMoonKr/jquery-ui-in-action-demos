@@ -1,9 +1,30 @@
 # jQuery UI in Action
-**Covers jQuery UI 1.11!**
+**Covers jQuery UI 1.13.3!** and **Webpack Based Project Examples**  
+~~**Covers jQuery UI 1.11!**~~  
 
 <img src="https://www.tjvantoll.com/images/book.jpg" alt="jQuery UI in Action book cover">
 
+## DevOps
+
+- VS Code
+- Node.js
+- Chrome
+
+```
+$ npm install jquery-ui-dist --save
+$ npm install webpack webpack-cli webpack-dev-server --save-dev
+```
+
+```
+import $ from 'jquery';
+import 'jquery-ui-dist/jquery-ui.js';
+```
+
+## Introduction
+
 Accompanying code samples and snippets for [jQuery UI in Action](http://tjvantoll.com/jquery-ui-in-action.html) book by [Manning](http://manning.com). [Download this repository](https://github.com/tjvantoll/jquery-ui-in-action-demos/archive/master.zip) and open the `index.html` file to see a list of all demos available.
+
+
 
 ### What's in the book?
 
