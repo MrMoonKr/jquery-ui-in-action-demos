@@ -13,6 +13,7 @@
 ```
 $ npm install jquery-ui-dist --save
 $ npm install webpack webpack-cli webpack-dev-server --save-dev
+$ npm install @types/jquery @types/jqueryui --save-dev
 ```
 
 ```
