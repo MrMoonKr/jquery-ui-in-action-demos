@@ -1,0 +1,23 @@
+{
+  "name": "jquery-ui-in-action-demos",
+  "version": "1.0.0",
+  "description": "**Covers jQuery UI 1.11!**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build.dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.5.30",
+    "@types/jqueryui": "^1.12.22",
+    "jquery-ui-dist": "^1.13.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
